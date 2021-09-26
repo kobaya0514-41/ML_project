@@ -15,4 +15,4 @@ if __name__ == "__main__":
     for fold,(trn_,val_) in enumerate(kf.split(X = df ,y = y)):
         df.loc[val_,'kfold'] = fold
 
-        df.to_csv("project/input/adult_folds.csv" , index = False)
+        df.to_csv("project/input/filename_folds.csv" , index = False)
