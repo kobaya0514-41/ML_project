@@ -2,7 +2,7 @@ import pandas as pd
 from sklearn import model_selection
 
 if __name__ == "__main__":
-    df = pd.read_csv("project/input/adult.csv")
+    df = pd.read_csv("project/input/filename.csv")
 
     df["kfold"] = -1
 
